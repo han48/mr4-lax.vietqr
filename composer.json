@@ -1,0 +1,34 @@
+{
+    "name": "mr4-lax/vietqr",
+    "description": "Laravel admin form VietQR",
+    "type": "library",
+    "keywords": ["laravel-admin", "extension", "vietqr", "qr payment"],
+    "version": "0.0.1",
+    "homepage": "https://github.com/han48/mr4-lax.vietqr",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mr4",
+            "email": "zzz4everzzz@live.co.uk"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "mr4-lc/vietqr": ">=0.0.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mr4Lax\\VietQr\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mr4Lax\\VietQr\\VietQrServiceProvider"
+            ]
+        }
+    }
+}
